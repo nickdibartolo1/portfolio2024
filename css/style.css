@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  font-weight: 500;
+  line-height: 1.6;
+  padding: 2rem 2rem;
+  font-size: 1.8rem; }
+
+.footer {
+  background-color: violet; }
+  .footer__container {
+    background-color: blue; }
