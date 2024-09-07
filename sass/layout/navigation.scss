@@ -1,0 +1,27 @@
+.navigation {
+
+    &__list {
+        padding: 25px 50px;
+        display: flex;
+        flex-direction: row;
+        gap: 4%;
+        justify-content: right;
+        text-transform: uppercase;
+    }
+
+    &__logo{
+        
+    }
+
+    &__item {
+        list-style-type: none;
+    }
+
+    &__link {
+
+        &:link,
+        &:visited {
+            text-decoration: none;
+        }
+    }
+}

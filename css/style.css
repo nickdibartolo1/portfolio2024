@@ -17,7 +17,16 @@ body {
   padding: 2rem 2rem;
   font-size: 1.8rem; }
 
-.footer {
-  background-color: violet; }
-  .footer__container {
-    background-color: blue; }
+.navigation__list {
+  padding: 25px 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 4%;
+  justify-content: right;
+  text-transform: uppercase; }
+
+.navigation__item {
+  list-style-type: none; }
+
+.navigation__link:link, .navigation__link:visited {
+  text-decoration: none; }
