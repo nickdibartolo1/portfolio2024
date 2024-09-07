@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; // 1rem = 10px, 10px/16px = 62.5%
+}
+
+body{
+    font-weight: 500;
+    line-height: 1.6;
+    padding: 2rem 2rem;
+    font-size: 1.8rem;
+}
+
+//RESPONSIVE BREAKPOINTS
+
+$bp-xxtralarge: 109.375em; // 1750px
+ 
+$bp-xtralarge: 96.25em; // 1540px
+ 
+$bp-large: 82.625em; // 1322px
+ 
+$bp-medium-large: 75em; // 1200px
+ 
+$bp-medium: 62em; // 992px
+ 
+$bp-medium-small: 50em; //800px
+ 
+$bp-small: 37.5em; //600px
+ 
+$bp-xtrasmall: 31.25em; //500px
