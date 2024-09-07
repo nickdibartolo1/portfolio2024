@@ -1,7 +1,7 @@
 .navigation {
 
     &__list {
-        padding: 25px 50px;
+        padding: 4rem 5rem;
         display: flex;
         flex-direction: row;
         gap: 4%;
@@ -18,10 +18,12 @@
     }
 
     &__link {
-
         &:link,
         &:visited {
             text-decoration: none;
+            color: $color-white;
+            padding: 1rem 2rem;
+
         }
     }
 }

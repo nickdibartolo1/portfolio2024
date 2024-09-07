@@ -17,8 +17,22 @@ body {
   padding: 2rem 2rem;
   font-size: 1.8rem; }
 
+.heading-primary {
+  text-transform: uppercase;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 8rem;
+  margin: 0; }
+
+.heading-secondary {
+  text-transform: uppercase;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 5rem;
+  margin: 0; }
+
 .navigation__list {
-  padding: 25px 50px;
+  padding: 4rem 5rem;
   display: flex;
   flex-direction: row;
   gap: 4%;
@@ -29,4 +43,20 @@ body {
   list-style-type: none; }
 
 .navigation__link:link, .navigation__link:visited {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #ffffff;
+  padding: 1rem 2rem; }
+
+.header {
+  height: 120vh;
+  background-image: linear-gradient(to right, #3b3b3bbd, #111111c0), url("../../assets/codeimg.jpg");
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  z-index: 30; }
+  .header__container {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; }
