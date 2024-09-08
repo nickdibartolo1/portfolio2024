@@ -1,10 +1,30 @@
 .about {
-    background-color: #1f4170;
-    height: 80rem;
+    background-color: $color-primary;
+    height: 100rem;
 
     &__container {
         position: relative;
         top: 5rem;
-        padding: 10rem 10rem;
+        padding: 10rem 15rem;
+        width: 50%;
+    }
+}
+
+.img {
+    display: flex;
+    justify-content: right;
+    padding: 0rem 8rem;
+
+    &__spacing {
+        height: 40rem;
+        border-radius: 2rem;
+    }
+
+    &__text-container {
+        position: relative;
+        right: 28%;
+        top: 34rem;
+        color: $color-white;
+
     }
 }

@@ -25,7 +25,6 @@ body {
   margin: 0; }
   .heading-primary__about {
     font-size: 6rem;
-    text-transform: uppercase;
     color: #ffffff; }
 
 .heading-secondary {
@@ -56,12 +55,36 @@ body {
     text-align: center; }
 
 .about {
-  background-color: #1f4170;
-  height: 80rem; }
+  background-color: #435e88;
+  height: 100rem; }
   .about__container {
     position: relative;
     top: 5rem;
-    padding: 10rem 10rem; }
+    padding: 10rem 15rem;
+    width: 50%; }
+
+.img {
+  display: flex;
+  justify-content: right;
+  padding: 0rem 8rem; }
+  .img__spacing {
+    height: 40rem;
+    border-radius: 2rem; }
+  .img__text-container {
+    position: relative;
+    right: 28%;
+    top: 34rem;
+    color: #ffffff; }
+
+.btn {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.5rem 4rem;
+  display: inline-block;
+  border: .5px solid #000;
+  border-radius: 10rem;
+  cursor: pointer;
+  background-color: #1f4b88; }
 
 .navigation__list {
   padding: 4rem 5rem;
