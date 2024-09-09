@@ -76,6 +76,36 @@ body {
     top: 34rem;
     color: #ffffff; }
 
+.carousel {
+  position: relative;
+  width: 100%;
+  max-width: 60rem;
+  overflow: hidden;
+  margin: auto; }
+  .carousel__container {
+    display: flex;
+    transition: transform 0.5s ease-in-out; }
+  .carousel__img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; }
+
+button.prev, button.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer; }
+
+button.prev {
+  left: 0; }
+
+button.next {
+  right: 0; }
+
 .btn {
   text-transform: uppercase;
   text-decoration: none;
