@@ -1,5 +1,66 @@
-.resume{
+.resume {
     background-color: $color-white;
-    height: 60rem;
+    height: 85rem;
     color: $color-black;
+    text-align: center;
+
+    &__container {
+        padding: 8rem 0rem 0rem 0rem;
+    }
+
+    &__btn-container {
+        margin: 2rem 0rem 10rem 0rem;
+    }
+}
+
+.img-row {
+    display: flex;
+    justify-content: center;
+
+    &__container--1 {
+        width: 25rem;
+        height: 25rem;
+        margin-right: 5%;
+        mask-image: url("../../assets/desktop-svgrepo-com.svg");
+        -webkit-mask-image: url("../../assets/desktop-svgrepo-com.svg");
+        mask-size: contain;
+        -webkit-mask-size: contain;
+        /* center the image in the mask */
+        mask-position: center;
+        -webkit-mask-position: center;
+        background-image: url('../../assets/code.jpg');
+        background-size: cover;
+        background-position: center; 
+    }
+    &__container--2 {
+        width: 25rem;
+        height: 25rem;
+        margin-right: 5%;
+        margin-left: 5%;
+        mask-image: url("../../assets/mouse-svgrepo-com.svg");
+        -webkit-mask-image: url("../../assets/mouse-svgrepo-com.svg");
+        mask-size: contain;
+        -webkit-mask-size: contain;
+        /* center the image in the mask */
+        mask-position: center;
+        -webkit-mask-position: center;
+        background-image: url('../../assets/code.jpg'); 
+        background-size: cover; 
+        background-position: center; 
+    }
+    &__container--3 {
+        width: 25rem;
+        height: 25rem;
+        margin-left: 5%;
+        mask-image: url("../../assets/code-branch-svgrepo-com.svg");
+        -webkit-mask-image: url("../../assets/code-branch-svgrepo-com.svg");
+        mask-size: contain; 
+        -webkit-mask-size: contain;
+        /* center the image in the mask */
+        mask-position: center; 
+        -webkit-mask-position: center;
+        background-image: url('../../assets/code.jpg'); 
+        background-size: cover; 
+        background-position: center; 
+    }
 }

@@ -80,7 +80,7 @@ body {
       color: #ffffff; }
 
 .projects {
-  height: 80rem;
+  height: 85rem;
   background-color: #274C77; }
   .projects__container {
     text-align: center;
@@ -117,8 +117,60 @@ button.next {
 
 .resume {
   background-color: #ffffff;
-  height: 60rem;
-  color: #000000; }
+  height: 85rem;
+  color: #000000;
+  text-align: center; }
+  .resume__container {
+    padding: 8rem 0rem 0rem 0rem; }
+  .resume__btn-container {
+    margin: 2rem 0rem 10rem 0rem; }
+
+.img-row {
+  display: flex;
+  justify-content: center; }
+  .img-row__container--1 {
+    width: 25rem;
+    height: 25rem;
+    margin-right: 5%;
+    mask-image: url("../../assets/desktop-svgrepo-com.svg");
+    -webkit-mask-image: url("../../assets/desktop-svgrepo-com.svg");
+    mask-size: contain;
+    -webkit-mask-size: contain;
+    /* center the image in the mask */
+    mask-position: center;
+    -webkit-mask-position: center;
+    background-image: url("../../assets/code.jpg");
+    background-size: cover;
+    background-position: center; }
+  .img-row__container--2 {
+    width: 25rem;
+    height: 25rem;
+    margin-right: 5%;
+    margin-left: 5%;
+    mask-image: url("../../assets/mouse-svgrepo-com.svg");
+    -webkit-mask-image: url("../../assets/mouse-svgrepo-com.svg");
+    mask-size: contain;
+    -webkit-mask-size: contain;
+    /* center the image in the mask */
+    mask-position: center;
+    -webkit-mask-position: center;
+    background-image: url("../../assets/code.jpg");
+    background-size: cover;
+    background-position: center; }
+  .img-row__container--3 {
+    width: 25rem;
+    height: 25rem;
+    margin-left: 5%;
+    mask-image: url("../../assets/code-branch-svgrepo-com.svg");
+    -webkit-mask-image: url("../../assets/code-branch-svgrepo-com.svg");
+    mask-size: contain;
+    -webkit-mask-size: contain;
+    /* center the image in the mask */
+    mask-position: center;
+    -webkit-mask-position: center;
+    background-image: url("../../assets/code.jpg");
+    background-size: cover;
+    background-position: center; }
 
 .btn {
   text-transform: uppercase;
@@ -159,7 +211,8 @@ button.next {
     display: flex;
     flex-direction: row;
     position: relative;
-    top: 2.3rem; }
+    top: 2.3rem;
+    margin-right: 7rem; }
   .footer__item {
     list-style-type: none; }
   .footer__link:link, .footer__link:visited {
@@ -176,6 +229,7 @@ button.next {
     border-radius: 3px; }
 
 .thanks {
+  margin-left: 7rem;
   padding: 2rem 4rem;
   width: 40%;
   text-align: center;

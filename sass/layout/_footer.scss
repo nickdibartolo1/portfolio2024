@@ -17,6 +17,7 @@
         flex-direction: row;
         position: relative;
         top: 2.3rem;
+        margin-right: 7rem;
     }
 
     &__item {
@@ -49,6 +50,7 @@
 
 //wrapper for thanks content
 .thanks {
+    margin-left: 7rem;
     padding: 2rem 4rem;
     width: 40%;
     text-align: center;
