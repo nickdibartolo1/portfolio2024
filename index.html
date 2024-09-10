@@ -6,6 +6,7 @@
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <title>Vite App</title>
 </head>
 
@@ -52,23 +53,35 @@
       </div>
     </section>
 
-    <section class="projects">
+        <section class="projects">
       <div class="projects__container">
         <h1 class="heading-primary-black">Projects</h1>
       </div>
-      <div id="projects">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">Project1<img class="carousel__img" src="./assets/wordmatchgame.png" alt="project 1: Word Match Game"></div>
+          <div class="swiper-slide">Project2<img class="carousel__img" src="./assets/portfolio1.png" alt="Project 2: Old Portfolio"></div>
+          <div class="swiper-slide">Project3<img class="carousel__img" src="./assets/nflfanbase.png" alt="Project 3: NFLFanBase"></div>
+          <div class="swiper-slide">Project3<img class="carousel__img" src="./assets/randomQuote.png" alt="Project 3: NFLFanBase"></div>
+          <div class="swiper-slide">Project3<img class="carousel__img" src="./assets/nflfanbase.png" alt="Project 3: NFLFanBase"></div>
+          <div class="swiper-slide">Slide 6</div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+      <!-- <div id="projects">
         <div class="carousel">
           <div class="carousel__container">
-            <img class="carousel__img" src="./assets/wordmatchgame.png" alt="project 1: Word Match Game">
+              <img class="carousel__img" src="./assets/wordmatchgame.png" alt="project 1: Word Match Game">
             <img class="carousel__img" src="./assets/portfolio1.png" alt="Project 2: Old Portfolio">
             <img class="carousel__img" src="./assets/nflfanbase.png" alt="Project 3: NFLFanBase">
           </div>
           <button class="prev">Prev</button>
           <button class="next">Next</button>
         </div>
-      </div>
+      </div> -->
     </section>
-
+  
     <section class="resume">
       <div class="resume__container">
         <h1 class="heading-primary">Resume</h1>
@@ -109,6 +122,16 @@
 
 
   <script type="module" src="/index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
 </body>
 
 </html>
