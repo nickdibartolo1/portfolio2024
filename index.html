@@ -28,42 +28,57 @@
 
       <div class="header__container">
         <h1 class="heading-primary">Nick DiBartolo</h1>
-        <h2 class="heading-secondary">Junior Developer</h2>
+        <h2 class="heading-secondary">Junior Web Developer</h2>
       </div>
     </section>
 
     <section class="about">
-      <div>
-        <div class="about__container">
-          <h1 class="heading-primary__about">Meet Nick</h1>
-          <p class="heading-secondary__about">I am a Junior Developer with over 1 year of hands on web and app development experience. I am happy to share with you my projects and a bit about me.</p>
+      <div class="about__container">
+        <div class="about__text-container">
+          <h1 class="heading-primary">Meet Nick</h1>
+          <p class="heading-secondary__about">I am a Junior Developer with over 1 year of hands on web and app
+            development experience. I am happy to share with you my projects and a bit about me.</p>
           <div>
             <button href="" class="btn">Learn More</button>
           </div>
         </div>
-        <div class="img">
-          <img class="img__spacing" src="./assets/headshot.jpg">
-          <div class="img__text-container">
+        <div class="about__img">
+          <img class="about__img--layout" src="./assets/headshot.jpg">
+          <div class="about__img--text-container">
             <p>Nick DiBartolo</p>
             <p>Junior Web Developer</p>
           </div>
         </div>
       </div>
- 
     </section>
 
-    <section id="projects">
-      <div class="carousel">
-        <div class="carousel__container">
-          <img class="carousel__img" src="./assets/wordmatchgame.png" alt="project 1: Word Match Game">
-          <img class="carousel__img" src="./assets/portfolio1.png" alt="Project 2: Old Portfolio">
-          <img class="carousel__img" src="./assets/nflfanbase.png" alt="Project 3: NFLFanBase">
-         
+    <section class="projects">
+      <div class="projects__container">
+        <h1 class="heading-primary-black">Projects</h1>
+      </div>
+      <div id="projects">
+        <div class="carousel">
+          <div class="carousel__container">
+            <img class="carousel__img" src="./assets/wordmatchgame.png" alt="project 1: Word Match Game">
+            <img class="carousel__img" src="./assets/portfolio1.png" alt="Project 2: Old Portfolio">
+            <img class="carousel__img" src="./assets/nflfanbase.png" alt="Project 3: NFLFanBase">
+          </div>
+          <button class="prev">Prev</button>
+          <button class="next">Next</button>
         </div>
-        <button class="prev">Prev</button>
-        <button class="next">Next</button>
       </div>
     </section>
+
+    <section class="resume">
+      <div class="resume__container">
+        <h1 class="">Resume</h1>
+        <div>
+          <h2>Checkout Nick's Resume!</h2>
+          <button>resume</button>
+        </div>
+      </div>
+    </section>
+
 
     <footer class="footer">
       <section class="footer__container">
@@ -88,8 +103,7 @@
 
 
 
-  <!-- <div id="app"></div>
-  <script type="module" src="/main.js"></script> -->
+  <script type="module" src="/index.js"></script>
 </body>
 
 </html>

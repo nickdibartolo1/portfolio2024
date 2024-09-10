@@ -5,13 +5,15 @@
     display: inline-block;
     font-size: 8rem;
     margin: 0;
+}
 
-    &__about {
-        font-size: 6rem;
-       
-        color: $color-white;
-    }
+.heading-primary-black {
+    text-transform: uppercase;
+    color: $color-black;
 
+    display: inline-block;
+    font-size: 8rem;
+    margin: 0;
 }
 
 .heading-secondary {
