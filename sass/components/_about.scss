@@ -1,8 +1,9 @@
 .about {
-    background-color: $color-primary;
+    background-color: $color-white;
     height: 85rem;
+    color: $color-black;
 
-    &__container{
+    &__container {
         display: flex;
         justify-content: space-between;
     }

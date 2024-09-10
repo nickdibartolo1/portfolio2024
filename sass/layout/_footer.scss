@@ -1,6 +1,71 @@
 .footer {
-   
-    &__container {
+    height: 20rem;
+    background-color: $color-primary;
+    color: $color-white;
 
+    //wrapper for all footer content
+    &__row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 1.5rem;
+    }
+
+    //wrapper for just the links
+    &__links-container {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        top: 2.3rem;
+    }
+
+    &__item {
+        list-style-type: none;
+    }
+
+    //styles for individual links
+    &__link {
+
+        &:link,
+        &:visited {
+            line-height: 1;
+            text-decoration: none;
+            color: $color-white;
+            padding: 1rem 1.4rem;
+            font-weight: 500;
+            transition: all .2s;
+
+        }
+
+        &:hover {
+            box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.4);
+            transform: scale(1.3);
+            background-color: #306097;
+            border-radius: 3px;
+        }
+    }
+
+}
+
+//wrapper for thanks content
+.thanks {
+    padding: 2rem 4rem;
+    width: 40%;
+    text-align: center;
+    display: inline-block;
+
+    &__text {}
+
+    &__name {
+        font-weight: 700;
+        transition: all .3s;
+
+        &:hover {
+            box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.4);
+            transform: translateY(-3.5rem) scale(1.3);
+            background-color: #306097;
+            border-radius: 3px;
+            padding: .5rem .5rem;
+        }
     }
 }
