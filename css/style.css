@@ -75,9 +75,14 @@ body {
     .about__img--layout {
       height: 60rem;
       width: 50rem;
-      border-radius: 2rem; }
+      border-radius: 2rem;
+      box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.4); }
     .about__img--text-container {
       color: #ffffff; }
+  .about__name {
+    color: #000000; }
+  .about__occ {
+    color: #000000; }
 
 .projects {
   height: 85rem;
