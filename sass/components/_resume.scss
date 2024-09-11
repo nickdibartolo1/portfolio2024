@@ -21,14 +21,14 @@
         width: 25rem;
         height: 25rem;
         margin-right: 5%;
-        mask-image: url("../../assets/desktop-svgrepo-com.svg");
-        -webkit-mask-image: url("../../assets/desktop-svgrepo-com.svg");
+        mask-image: url("../../assets/svg/desktop-svgrepo-com.svg");
+        -webkit-mask-image: url("../../assets/svg/desktop-svgrepo-com.svg");
         mask-size: contain;
         -webkit-mask-size: contain;
         /* center the image in the mask */
         mask-position: center;
         -webkit-mask-position: center;
-        background-image: url('../../assets/code.jpg');
+        background-image: url('../../assets/img/code.jpg');
         background-size: cover;
         background-position: center; 
     }
@@ -37,14 +37,14 @@
         height: 25rem;
         margin-right: 5%;
         margin-left: 5%;
-        mask-image: url("../../assets/mouse-svgrepo-com.svg");
-        -webkit-mask-image: url("../../assets/mouse-svgrepo-com.svg");
+        mask-image: url("../../assets/svg/mouse-svgrepo-com.svg");
+        -webkit-mask-image: url("../../assets/svg/mouse-svgrepo-com.svg");
         mask-size: contain;
         -webkit-mask-size: contain;
         /* center the image in the mask */
         mask-position: center;
         -webkit-mask-position: center;
-        background-image: url('../../assets/code.jpg'); 
+        background-image: url('../../assets/img/code.jpg'); 
         background-size: cover; 
         background-position: center; 
     }
@@ -52,14 +52,14 @@
         width: 25rem;
         height: 25rem;
         margin-left: 5%;
-        mask-image: url("../../assets/code-branch-svgrepo-com.svg");
-        -webkit-mask-image: url("../../assets/code-branch-svgrepo-com.svg");
+        mask-image: url("../../assets/svg/code-branch-svgrepo-com.svg");
+        -webkit-mask-image: url("../../assets/svg/code-branch-svgrepo-com.svg");
         mask-size: contain; 
         -webkit-mask-size: contain;
         /* center the image in the mask */
         mask-position: center; 
         -webkit-mask-position: center;
-        background-image: url('../../assets/code.jpg'); 
+        background-image: url('../../assets/img/code.jpg'); 
         background-size: cover; 
         background-position: center; 
     }

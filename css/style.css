@@ -43,7 +43,7 @@ body {
 
 .header {
   height: 97vh;
-  background-image: linear-gradient(to right, #3b3b3bbd, #111111c0), url("../../assets/codeimg.jpg");
+  background-image: linear-gradient(to right, #3b3b3bbd, #111111c0), url("../../assets/img/codeimg.jpg");
   background-size: cover;
   background-position: top;
   position: relative;
@@ -141,14 +141,14 @@ button.next {
     width: 25rem;
     height: 25rem;
     margin-right: 5%;
-    mask-image: url("../../assets/desktop-svgrepo-com.svg");
-    -webkit-mask-image: url("../../assets/desktop-svgrepo-com.svg");
+    mask-image: url("../../assets/svg/desktop-svgrepo-com.svg");
+    -webkit-mask-image: url("../../assets/svg/desktop-svgrepo-com.svg");
     mask-size: contain;
     -webkit-mask-size: contain;
     /* center the image in the mask */
     mask-position: center;
     -webkit-mask-position: center;
-    background-image: url("../../assets/code.jpg");
+    background-image: url("../../assets/img/code.jpg");
     background-size: cover;
     background-position: center; }
   .img-row__container--2 {
@@ -156,28 +156,28 @@ button.next {
     height: 25rem;
     margin-right: 5%;
     margin-left: 5%;
-    mask-image: url("../../assets/mouse-svgrepo-com.svg");
-    -webkit-mask-image: url("../../assets/mouse-svgrepo-com.svg");
+    mask-image: url("../../assets/svg/mouse-svgrepo-com.svg");
+    -webkit-mask-image: url("../../assets/svg/mouse-svgrepo-com.svg");
     mask-size: contain;
     -webkit-mask-size: contain;
     /* center the image in the mask */
     mask-position: center;
     -webkit-mask-position: center;
-    background-image: url("../../assets/code.jpg");
+    background-image: url("../../assets/img/code.jpg");
     background-size: cover;
     background-position: center; }
   .img-row__container--3 {
     width: 25rem;
     height: 25rem;
     margin-left: 5%;
-    mask-image: url("../../assets/code-branch-svgrepo-com.svg");
-    -webkit-mask-image: url("../../assets/code-branch-svgrepo-com.svg");
+    mask-image: url("../../assets/svg/code-branch-svgrepo-com.svg");
+    -webkit-mask-image: url("../../assets/svg/code-branch-svgrepo-com.svg");
     mask-size: contain;
     -webkit-mask-size: contain;
     /* center the image in the mask */
     mask-position: center;
     -webkit-mask-position: center;
-    background-image: url("../../assets/code.jpg");
+    background-image: url("../../assets/img/code.jpg");
     background-size: cover;
     background-position: center; }
 
@@ -196,7 +196,7 @@ button.next {
   display: flex;
   flex-direction: row;
   gap: 4%;
-  justify-content: right;
+  justify-content: center;
   text-transform: uppercase; }
 
 .navigation__item {
@@ -205,7 +205,7 @@ button.next {
 .navigation__link:link, .navigation__link:visited {
   text-decoration: none;
   color: #ffffff;
-  padding: 1rem 2rem; }
+  padding: 1rem 0rem; }
 
 .footer {
   height: 20rem;
