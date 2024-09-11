@@ -90,6 +90,8 @@ body {
   .projects__container {
     text-align: center;
     padding: 8rem 0rem 2rem 0rem; }
+  .projects__img {
+    width: 100%; }
   .projects__title {
     font-size: 3rem;
     text-align: center;
@@ -106,35 +108,6 @@ body {
 .mySwiper {
   max-width: 100rem;
   margin: 0 auto; }
-
-.carousel {
-  position: relative;
-  width: 100%;
-  max-width: 60rem;
-  overflow: hidden;
-  margin: auto; }
-  .carousel__container {
-    display: flex;
-    transition: transform .5s ease-in-out; }
-  .carousel__img {
-    width: 100%; }
-
-button.prev,
-button.next {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  border: none;
-  padding: 10px;
-  cursor: pointer; }
-
-button.prev {
-  left: 0; }
-
-button.next {
-  right: 0; }
 
 .resume {
   background-color: #ffffff;
