@@ -1,15 +1,36 @@
 .projects {
     height: 100rem;
     background-color: $color-primary;
+    
 
     &__container {
         text-align: center;
         padding: 8rem 0rem 2rem 0rem;
-       
+
+    }
+
+    &__title {
+        font-size: 3rem;
+        text-align: center;
+        color: $color-white;
+    }
+
+    &__description-container{
+        padding: 3rem 0;
+        text-align: center;
+    }
+
+    &__description {
+        color: $color-white;
+    }
+
+    &__span{
+        font-weight: bolder;
+        text-decoration: underline;
     }
 }
 
-.mySwiper{
+.mySwiper {
     max-width: 100rem;
     margin: 0 auto;
 }

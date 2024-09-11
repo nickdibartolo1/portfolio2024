@@ -16,18 +16,20 @@
       <header class="navigation">
         <div class="navigation__nav">
           <!-- <div class="navigation__logo">ND</div> -->
-
           <ul class="navigation__list">
             <li class="navigation__item"><a href="#" class="navigation__link">About</a></li>
             <li class="navigation__item"><a href="#" class="navigation__link">Projects</a></li>
             <li class="navigation__item"><a href="#" class="navigation__link">Resume</a></li>
           </ul>
 
-          <ul>
-            <li><a href='https://github.com/nickdibartolo1/'></a></li>
-            <li><a href='https://www.linkedin.com/in/nicholas-dibartolo-a93310245/'>hh</a></li>
-            
-          </ul>
+          <div class="icon-list">
+            <a class="icon-list__link--1" href='https://github.com/nickdibartolo1/'><img class="icon-list__item"
+                src="./assets/svg/github-142-svgrepo-com.svg"></a>
+            <a class="icon-list__link--2" href='https://www.linkedin.com/in/nicholas-dibartolo-a93310245/'><img
+                class="icon-list__item" src="./assets/svg/linkedin-linked-in-svgrepo-com.svg"></a>
+          </div>
+
+
 
         </div>
       </header>
@@ -59,49 +61,79 @@
       </div>
     </section>
 
-        <section class="projects">
+    <section class="projects">
       <div class="projects__container">
-        <h1 class="heading-primary-black">Projects</h1>
+        <h1 class="heading-primary-white">Projects</h1>
       </div>
       <div class="swiper mySwiper">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
-            <div>SMS Dashboard</div>
+            <div class="projects__title">SMS Dashboard</div>
             <img class="carousel__img" src="./assets/img/newdash.png" alt="project 1: SMS Dashboard">
-            <p>This powerful Software as a Service (SaaS) application was co-developed to streamline data management and boost productivity for Strategic Micro Systems (SMS), an IT company based in Parsippany, NJ. By integrating six different APIs into a unified platform, 
-              the app provides users with centralized access to essential client information, significantly improving workflows for tasks like billing, client management, and in-house ticketing. In addition to API integration, the application also offers powerful 
-              features such as CSV data exports and database querying capabilities, allowing users to perform CRUD (Create, Read, Update, Delete) operations for client data. (Version 2).
-            </p>
+            <div class="projects__description-container">
+              <p class="projects__description">This powerful Software as a Service (SaaS) application was co-developed
+                to streamline data management and
+                boost productivity for Strategic Micro Systems (SMS), an IT company based in Parsippany, NJ. By
+                integrating six different APIs into a unified platform,
+                the app provides users with centralized access to essential client information, significantly improving
+                workflows for tasks like billing, client management, and in-house ticketing. In addition to API
+                integration, the application also offers powerful
+                features such as CSV data exports and database querying capabilities, allowing users to perform CRUD
+                (Create, Read, Update, Delete) operations for client data. (Version 2).
+              </p>
+            </div>
           </div>
           <div class="swiper-slide">
-            <div>SMS Old Dashbaord</div>
+            <div class="projects__title">SMS Old Dashbaord</div>
             <img class="carousel__img" src="./assets/img/olddash.png" alt="project 2: Old SMS Dashboard">
-            <p><span>Read Last Slides Description</span> This is the original version of the UI layout developed for the previous application mentioned. An overhaul was done to revamp the interface to modernize the look and feel of the platform which is shown on the previous slide.</p>
+            <div class="projects__description-container">
+              <p class="projects__description"><span class="projects__span">Read Last Slides Description.</span> This is the original version of
+                the UI layout developed for the
+                previous application mentioned. An overhaul was done to revamp the interface to modernize the look and
+                feel of the platform which is shown on the previous slide.</p>
+            </div>
           </div>
           <div class="swiper-slide">
-            <div>Nick's Portfolio</div>
+            <div class="projects__title">Nick's Portfolio</div>
             <img class="carousel__img" src="./assets/img/portfolio1.png" alt="project 3: Nick's Portfolio">
-            <p>This application is currrently the most updated portfolio of Nick's work, projects, and experience.</p>
+            <div class="projects__description-container">
+              <p class="projects__description">This application is currrently the most updated portfolio of Nick's work,
+                projects, and experience.</p>
+            </div>
           </div>
           <div class="swiper-slide">
-            <div>Nick's Old Portfolio</div>
+            <div class="projects__title">Nick's Old Portfolio</div>
             <img class="carousel__img" src="./assets/img/portfolio1.png" alt="project 4: Nick's Old Portfolio">
-            <p>Nick's old portfolio he created back in early 2023 to show his work as a Front End Developer along with his resume.</p>
+            <div class="projects__description-container">
+              <p class="projects__description">Nick's old portfolio he created back in early 2023 to show his work as a
+                Front End Developer along with
+                his resume.</p>
+            </div>
           </div>
           <div class="swiper-slide">
-            <div>Word Match Game</div>
+            <div class="projects__title">Word Match Game</div>
             <img class="carousel__img" src="./assets/img/wordmatchgame.png" alt="project 5: Word Match Game">
-            <p>A game application that is a mock creation of Quizlets word match game using a random word API generator.</p>
+            <div class="projects__description-container">
+              <p class="projects__description">A game application that is a mock creation of Quizlets word match game
+                using a random word API generator.
+              </p>
+            </div>
           </div>
           <div class="swiper-slide">
-            <div>NFLFanBase</div>
+            <div class="projects__title">NFLFanBase</div>
             <img class="carousel__img" src="./assets/img/nflfanbase.png" alt="project 6: NFLFanBase">
-            <p>An application created for those who enjoy American Football news and statistics using a football news API.</p>
+            <div class="projects__description-container">
+              <p class="projects__description">An application created for those who enjoy American Football news and
+                statistics using a football news
+                API.</p>
+            </div>
           </div>
           <div class="swiper-slide">
-            <div>Random Quote Generator</div>
+            <div class="projects__title">Random Quote Generator</div>
             <img class="carousel__img" src="./assets/img/randomQuote.png" alt="project 7: Word Match Game">
-            <p>Simple random quote generator using a random quote API generator.</p>
+            <div class="projects__description-container">
+              <p class="projects__description">Simple random quote generator using a random quote API generator.</p>
+            </div>
           </div>
           <!-- <div class="swiper-slide">
             <div>Project1</div>
@@ -112,19 +144,8 @@
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
       </div>
-      <!-- <div id="projects">
-        <div class="carousel">
-          <div class="carousel__container">
-              <img class="carousel__img" src="./assets/wordmatchgame.png" alt="project 1: Word Match Game">
-            <img class="carousel__img" src="./assets/portfolio1.png" alt="Project 2: Old Portfolio">
-            <img class="carousel__img" src="./assets/nflfanbase.png" alt="Project 3: NFLFanBase">
-          </div>
-          <button class="prev">Prev</button>
-          <button class="next">Next</button>
-        </div>
-      </div> -->
     </section>
-  
+
     <section class="resume">
       <div class="resume__container">
         <h1 class="heading-primary">Resume</h1>
@@ -146,11 +167,11 @@
 
     <footer class="footer">
       <section class="footer__row">
-          <ul class="footer__links-container">
-            <li class="footer__item"><a href="#" class="footer__link">About</a></li>
-            <li class="footer__item"><a href="#" class="footer__link">Projects</a></li>
-            <li class="footer__item"><a href="#" class="footer__link">Resume</a></li>
-          </ul>
+        <ul class="footer__links-container">
+          <li class="footer__item"><a href="#" class="footer__link">About</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Projects</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Resume</a></li>
+        </ul>
         <div class="thanks">
           <p class="thanks__text"> This portfolio was created by <span class="thanks__name">NICK DIBARTOLO</span> to
             showcase his developer abilities and projects.
