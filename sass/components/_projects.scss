@@ -1,6 +1,7 @@
 .projects {
     height: 100rem;
     background-color: $color-primary;
+    font-family: $font-primary;
 
     &__container {
         text-align: center;
@@ -20,7 +21,7 @@
     }
 
     &__description-container{
-        padding: 3rem 0;
+        padding: 2rem 0;
         text-align: center;
     }
 

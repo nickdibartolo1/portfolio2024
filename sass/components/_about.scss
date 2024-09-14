@@ -1,28 +1,52 @@
 .about {
     background-color: $color-white;
-    height: 85rem;
+    height: 95rem;
     color: $color-black;
+
 
     &__container {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        align-items: center;
+        font-family: $font-primary;
+
+        @include respond(tab-port) {
+            display: flex;
+            justify-content: center;
+        }
     }
 
     &__text-container {
-        padding: 7rem 12rem;
-        width: 50%;
+        padding: 6rem 12rem;
+        max-width: 50%;
+        height: auto;
+
+        @include respond(tab-port) {
+            max-width: none;
+            padding: 4rem 5rem 0rem 5rem;
+        }
     }
 
     &__img {
-        position: relative;
-        top: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
         padding: 10rem 15rem;
+
+        @include respond(desktop) {
+            padding: 6rem 8rem;
+        }
+
+        @include respond(tab-port) {
+            max-width: 45%;
+        }
 
         // actual img
         &--layout {
-            height: 60rem;
-            width: 45rem;
+            max-width: 80%;
+            height: auto;
             border-radius: 2rem;
             box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.4);
             transition: all .5s;
@@ -36,7 +60,14 @@
     }
 
     &__paragraph {
-        padding: 1rem 0;
+        padding: .8rem 0;
+        font-family: $font-primary;
+
+        @include respond(desktop) {
+            font-size: 1.5rem;
+            padding: .6rem 0;
+        }
+
     }
 
 }
@@ -46,9 +77,11 @@
     0% {
         transform: rotateY(0); // Initial position
     }
+
     50% {
         transform: rotateY(180deg); // Halfway, flipped halfway around
     }
+
     100% {
         transform: rotateY(360deg); // Full flip, back to the start
     }
