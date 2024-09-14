@@ -9,9 +9,7 @@
     }
 
     &__text-container {
-        position: relative;
-        top: 3rem;
-        padding: 10rem 15rem;
+        padding: 9rem 12rem;
         width: 50%;
     }
 
@@ -20,24 +18,14 @@
         top: 3rem;
         padding: 10rem 15rem;
 
+        // actual img
         &--layout {
             height: 60rem;
-            width: 50rem;
+            width: 45rem;
             border-radius: 2rem;
             box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.4);
         }
 
-        &--text-container {
-            color: $color-white;
-        }
-
     }
 
-    &__name {
-        color: $color-black;
-    }
-
-    &__occ {
-        color: $color-black;
-    }
 }
