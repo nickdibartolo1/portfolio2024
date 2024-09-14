@@ -3,6 +3,7 @@
     &__nav {
         display: flex;
         justify-content: right;
+        flex-wrap: wrap;
         align-items: center;
         padding: 0 5rem;
     }

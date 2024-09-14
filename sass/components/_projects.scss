@@ -1,7 +1,6 @@
 .projects {
     height: 100rem;
     background-color: $color-primary;
-    
 
     &__container {
         text-align: center;
@@ -41,5 +40,6 @@
 }
 
 .swiper-button-prev, .swiper-button-next{
-    
+    position: absolute !important ;
+    top: var(--swiper-navigation-top-offset, 40%) !important;
 }

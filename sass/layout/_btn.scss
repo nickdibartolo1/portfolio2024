@@ -1,11 +1,17 @@
 .btn {
     text-transform: uppercase;
+    font-weight: 700;
     text-decoration: none;
-    padding: 1.5rem 4rem;
+    padding: 1.5rem 3rem;
     display: inline-block;
-    border: .5px solid #000;
+    border: 1px solid transparent;
     border-radius: 10rem;
     cursor: pointer;
-    background-color: $color-secondary;
+    background-color: $color-primary;
+    color: $color-white;
 
+    &:hover {
+        background-color: $color-secondary;
+        border-color: $color-primary;
+    }
 }

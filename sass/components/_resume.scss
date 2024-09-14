@@ -1,6 +1,6 @@
 .resume {
     background-color: $color-white;
-    height: 85rem;
+    height: 95rem;
     color: $color-black;
     text-align: center;
 
@@ -15,7 +15,9 @@
 
 .img-row {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    padding: 4rem 0rem;
 
     &__container--1 {
         width: 25rem;
@@ -31,6 +33,11 @@
         background-image: url('../../assets/img/code.jpg');
         background-size: cover;
         background-position: center; 
+        transition: all 0.5s;
+
+        &:hover{
+            animation: bob 1s ease-in-out infinite;
+        }
     }
     &__container--2 {
         width: 25rem;
@@ -47,6 +54,11 @@
         background-image: url('../../assets/img/code.jpg'); 
         background-size: cover; 
         background-position: center; 
+        transition: all 0.5s;
+
+        &:hover{
+            animation: bob 1s ease-in-out infinite;
+        }
     }
     &__container--3 {
         width: 25rem;
@@ -62,5 +74,21 @@
         background-image: url('../../assets/img/code.jpg'); 
         background-size: cover; 
         background-position: center; 
+        transition: all 0.5s;
+
+        &:hover{
+            animation: bob 1s ease-in-out infinite;
+        }
+    }
+}
+
+
+// animation for images to bob
+@keyframes bob {
+    0%, 100% {
+        transform: translateY(0); 
+    }
+    50% {
+        transform: translateY(-10px); 
     }
 }
