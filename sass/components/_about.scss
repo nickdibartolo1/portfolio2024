@@ -3,6 +3,9 @@
     height: 95rem;
     color: $color-black;
 
+    @include respond(tab-port-small) {
+        height: 110rem;
+    }
 
     &__container {
         display: flex;
@@ -40,7 +43,10 @@
         }
 
         @include respond(tab-port) {
-            max-width: 45%;
+            padding: 1rem 8rem;
+            width: 50%;
+            min-width: 400px; 
+            max-width: 450px;
         }
 
         // actual img
@@ -51,6 +57,10 @@
             box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.4);
             transition: all .5s;
             transform-style: preserve-3d;
+
+            // @include respond(tab-port-small) {
+            //     max-width: none;
+            // }
 
             &:hover {
                 animation: flip 1.5s ease-in-out infinite; // Infinite flip animation on hover

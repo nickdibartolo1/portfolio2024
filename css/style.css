@@ -73,6 +73,9 @@ body {
   background-color: #ffffff;
   height: 95rem;
   color: #000000; }
+  @media only screen and (max-width: 56.25em) {
+    .about {
+      height: 110rem; } }
   .about__container {
     display: flex;
     flex-wrap: wrap;
@@ -102,7 +105,10 @@ body {
         padding: 6rem 8rem; } }
     @media only screen and (max-width: 73.69rem) {
       .about__img {
-        max-width: 45%; } }
+        padding: 1rem 8rem;
+        width: 50%;
+        min-width: 400px;
+        max-width: 450px; } }
     .about__img--layout {
       max-width: 80%;
       height: auto;
@@ -323,6 +329,10 @@ body {
   width: 40%;
   text-align: center;
   display: inline-block; }
+  @media only screen and (max-width: 73.69rem) {
+    .thanks {
+      font-size: 1.5rem;
+      width: 50%; } }
   .thanks__name {
     font-weight: 700;
     transition: all .3s; }
