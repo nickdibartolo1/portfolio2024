@@ -1,15 +1,19 @@
 {
+  "hompage": "https://nickdibartolo1.github.io/portfolio2024",
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "vite build",
     "preview": "vite preview",
-    "compile:sass": "node-sass sass/main.scss css/style.css -w" 
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "node-sass": "^9.0.0",
     "vite": "^5.4.1"
   }
