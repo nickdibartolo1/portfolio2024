@@ -62,7 +62,7 @@ body {
 
 .header {
   height: 97vh;
-  background-image: linear-gradient(to right, #3b3b3bbd, #111111c0), url("../../assets/img/codeimg.jpg");
+  background-image: linear-gradient(to right, #3b3b3bbd, #111111c0), url("/assets/img/codeimg.jpg");
   background-size: cover;
   background-position: top;
   position: relative;
@@ -195,14 +195,14 @@ body {
     width: 25rem;
     height: 25rem;
     margin-right: 5%;
-    mask-image: url("../../assets/svg/desktop-svgrepo-com.svg");
-    -webkit-mask-image: url("../../assets/svg/desktop-svgrepo-com.svg");
+    mask-image: url("/assets/svg/desktop-svgrepo-com.svg");
+    -webkit-mask-image: url("/assets/svg/desktop-svgrepo-com.svg");
     mask-size: contain;
     -webkit-mask-size: contain;
     /* center the image in the mask */
     mask-position: center;
     -webkit-mask-position: center;
-    background-image: url("../../assets/img/code.jpg");
+    background-image: url("/assets/img/code.jpg");
     background-size: cover;
     background-position: center;
     transition: all 0.5s; }
@@ -221,14 +221,14 @@ body {
     height: 25rem;
     margin-right: 5%;
     margin-left: 5%;
-    mask-image: url("../../assets/svg/mouse-svgrepo-com.svg");
-    -webkit-mask-image: url("../../assets/svg/mouse-svgrepo-com.svg");
+    mask-image: url("/assets/svg/mouse-svgrepo-com.svg");
+    -webkit-mask-image: url("/assets/svg/mouse-svgrepo-com.svg");
     mask-size: contain;
     -webkit-mask-size: contain;
     /* center the image in the mask */
     mask-position: center;
     -webkit-mask-position: center;
-    background-image: url("../../assets/img/code.jpg");
+    background-image: url("/assets/img/code.jpg");
     background-size: cover;
     background-position: center;
     transition: all 0.5s; }
@@ -246,14 +246,14 @@ body {
     width: 25rem;
     height: 25rem;
     margin-left: 5%;
-    mask-image: url("../../assets/svg/code-branch-svgrepo-com.svg");
-    -webkit-mask-image: url("../../assets/svg/code-branch-svgrepo-com.svg");
+    mask-image: url("/assets/svg/code-branch-svgrepo-com.svg");
+    -webkit-mask-image: url("/assets/svg/code-branch-svgrepo-com.svg");
     mask-size: contain;
     -webkit-mask-size: contain;
     /* center the image in the mask */
     mask-position: center;
     -webkit-mask-position: center;
-    background-image: url("../../assets/img/code.jpg");
+    background-image: url("/assets/img/code.jpg");
     background-size: cover;
     background-position: center;
     transition: all 0.5s; }
