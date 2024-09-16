@@ -8,11 +8,11 @@
     }
 
     @if $breakpoint ==tab-port-small {
-        @media only screen and (max-width: 56.25em) {
+        @media only screen and (max-width: 59.375em) {
             @content;
         }
 
-        //900px
+        //950px
     }
 
     @if $breakpoint ==tab-port {

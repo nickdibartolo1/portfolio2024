@@ -27,6 +27,9 @@ body {
   @media only screen and (max-width: 88.94rem) {
     .heading-primary {
       font-size: 6rem; } }
+  @media only screen and (max-width: 59.375em) {
+    .heading-primary {
+      font-size: 4.7rem; } }
 
 .heading-primary-white {
   text-transform: uppercase;
@@ -45,6 +48,9 @@ body {
   @media only screen and (max-width: 88.94rem) {
     .heading-secondary {
       font-size: 3.5rem; } }
+  @media only screen and (max-width: 59.375em) {
+    .heading-secondary {
+      font-size: 2.1rem; } }
   .heading-secondary__about {
     padding: 1rem 0rem 2rem 0rem;
     display: inline-block;
@@ -73,7 +79,7 @@ body {
   background-color: #ffffff;
   height: 95rem;
   color: #000000; }
-  @media only screen and (max-width: 56.25em) {
+  @media only screen and (max-width: 59.375em) {
     .about {
       height: 110rem; } }
   .about__container {
@@ -109,6 +115,11 @@ body {
         width: 50%;
         min-width: 400px;
         max-width: 450px; } }
+    @media only screen and (max-width: 37.5em) {
+      .about__img {
+        width: 50%;
+        min-width: 300px;
+        max-width: 400px; } }
     .about__img--layout {
       max-width: 80%;
       height: auto;
@@ -195,6 +206,14 @@ body {
     background-size: cover;
     background-position: center;
     transition: all 0.5s; }
+    @media only screen and (max-width: 73.69rem) {
+      .img-row__container--1 {
+        width: 20rem;
+        height: 20rem; } }
+    @media only screen and (max-width: 59.375em) {
+      .img-row__container--1 {
+        width: 17rem;
+        height: 17rem; } }
     .img-row__container--1:hover {
       animation: bob 1s ease-in-out infinite; }
   .img-row__container--2 {
@@ -213,6 +232,14 @@ body {
     background-size: cover;
     background-position: center;
     transition: all 0.5s; }
+    @media only screen and (max-width: 73.69rem) {
+      .img-row__container--2 {
+        width: 20rem;
+        height: 20rem; } }
+    @media only screen and (max-width: 59.375em) {
+      .img-row__container--2 {
+        width: 17rem;
+        height: 17rem; } }
     .img-row__container--2:hover {
       animation: bob 1s ease-in-out infinite; }
   .img-row__container--3 {
@@ -230,11 +257,20 @@ body {
     background-size: cover;
     background-position: center;
     transition: all 0.5s; }
+    @media only screen and (max-width: 73.69rem) {
+      .img-row__container--3 {
+        width: 20rem;
+        height: 20rem; } }
+    @media only screen and (max-width: 59.375em) {
+      .img-row__container--3 {
+        width: 17rem;
+        height: 17rem; } }
     .img-row__container--3:hover {
       animation: bob 1s ease-in-out infinite; }
 
 @keyframes bob {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0); }
   50% {
     transform: translateY(-10px); } }
@@ -277,6 +313,9 @@ body {
   color: #ffffff;
   padding: 1rem 0rem;
   transition: all 0.3s; }
+  @media only screen and (max-width: 73.69rem) {
+    .navigation__link:link, .navigation__link:visited {
+      font-size: 1.6rem; } }
 
 .navigation__link:hover {
   color: #306097; }
@@ -289,6 +328,10 @@ body {
     margin: 0rem 1.5rem 0rem 1.5rem;
     transition: all 0.5s;
     filter: brightness(0) invert(1); }
+    @media only screen and (max-width: 73.69rem) {
+      .icon-list__item {
+        height: 3rem;
+        width: 3rem; } }
     .icon-list__item:hover {
       filter: brightness() invert(0.5);
       transform: translateY(-5px) scale(1.01); }
@@ -317,6 +360,9 @@ body {
     padding: 1rem 1.4rem;
     font-weight: 500;
     transition: all .2s; }
+    @media only screen and (max-width: 59.375em) {
+      .footer__link:link, .footer__link:visited {
+        font-size: 1.6rem; } }
   .footer__link:hover {
     box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.4);
     transform: scale(1.3);
@@ -333,6 +379,12 @@ body {
     .thanks {
       font-size: 1.5rem;
       width: 50%; } }
+  @media only screen and (max-width: 59.375em) {
+    .thanks {
+      font-size: 1.3rem;
+      margin-left: 2rem;
+      padding: 1.5rem 3rem;
+      width: 80%; } }
   .thanks__name {
     font-weight: 700;
     transition: all .3s; }

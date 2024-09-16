@@ -49,6 +49,12 @@
             max-width: 450px;
         }
 
+        @include respond(phone) {
+            width: 50%;
+            min-width: 300px; 
+            max-width: 400px;
+        }
+
         // actual img
         &--layout {
             max-width: 80%;

@@ -15,6 +15,7 @@
         gap: 4rem;
         padding: 4rem 4rem;
         text-transform: uppercase;
+
     }
 
     // &__logo {}
@@ -24,15 +25,21 @@
     }
 
     &__link {
+
         &:link,
         &:visited {
             text-decoration: none;
             color: $color-white;
             padding: 1rem 0rem;
             transition: all 0.3s;
+
+            @include respond(tab-port) {
+                font-size: 1.6rem;
+            }
+
         }
 
-        &:hover{
+        &:hover {
             color: $color-secondary;
         }
     }
@@ -41,13 +48,6 @@
 .icon-list {
     align-items: center;
 
-    // &__link {
-    //     &:link,
-    //     &:visited {
-
-    //     }
-    // }
-
     &__item {
         height: 4rem;
         width: 4rem;
@@ -55,6 +55,11 @@
         transition: all 0.5s;
         // special way to change the color of the svgs in the html
         filter: brightness(0) invert(1);
+
+        @include respond(tab-port) {
+            height: 3rem;
+            width: 3rem;
+        }
 
         &:hover {
             filter: brightness() invert(.5);

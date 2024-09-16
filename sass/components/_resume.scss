@@ -33,13 +33,24 @@
         -webkit-mask-position: center;
         background-image: url('../../assets/img/code.jpg');
         background-size: cover;
-        background-position: center; 
+        background-position: center;
         transition: all 0.5s;
 
-        &:hover{
+        @include respond(tab-port) {
+            width: 20rem;
+            height: 20rem;
+        }
+
+        @include respond(tab-port-small) {
+            width: 17rem;
+            height: 17rem;
+        }
+
+        &:hover {
             animation: bob 1s ease-in-out infinite;
         }
     }
+
     &__container--2 {
         width: 25rem;
         height: 25rem;
@@ -52,32 +63,53 @@
         /* center the image in the mask */
         mask-position: center;
         -webkit-mask-position: center;
-        background-image: url('../../assets/img/code.jpg'); 
-        background-size: cover; 
-        background-position: center; 
+        background-image: url('../../assets/img/code.jpg');
+        background-size: cover;
+        background-position: center;
         transition: all 0.5s;
 
-        &:hover{
+        @include respond(tab-port) {
+            width: 20rem;
+            height: 20rem;
+        }
+
+        @include respond(tab-port-small) {
+            width: 17rem;
+            height: 17rem;
+        }
+
+        &:hover {
             animation: bob 1s ease-in-out infinite;
         }
     }
+
     &__container--3 {
         width: 25rem;
         height: 25rem;
         margin-left: 5%;
         mask-image: url("../../assets/svg/code-branch-svgrepo-com.svg");
         -webkit-mask-image: url("../../assets/svg/code-branch-svgrepo-com.svg");
-        mask-size: contain; 
+        mask-size: contain;
         -webkit-mask-size: contain;
         /* center the image in the mask */
-        mask-position: center; 
+        mask-position: center;
         -webkit-mask-position: center;
-        background-image: url('../../assets/img/code.jpg'); 
-        background-size: cover; 
-        background-position: center; 
+        background-image: url('../../assets/img/code.jpg');
+        background-size: cover;
+        background-position: center;
         transition: all 0.5s;
 
-        &:hover{
+        @include respond(tab-port) {
+            width: 20rem;
+            height: 20rem;
+        }
+
+        @include respond(tab-port-small) {
+            width: 17rem;
+            height: 17rem;
+        }
+
+        &:hover {
             animation: bob 1s ease-in-out infinite;
         }
     }
@@ -86,10 +118,13 @@
 
 // animation for images to bob
 @keyframes bob {
-    0%, 100% {
-        transform: translateY(0); 
+
+    0%,
+    100% {
+        transform: translateY(0);
     }
+
     50% {
-        transform: translateY(-10px); 
+        transform: translateY(-10px);
     }
 }

@@ -8,6 +8,11 @@
     @include respond(small-desktop) {
       font-size: 6rem;
     }
+    @include respond(tab-port-small) {
+      font-size: 4.7rem;
+    }
+
+   
 }
 
 .heading-primary-white {
@@ -28,6 +33,9 @@
 
     @include respond(small-desktop) {
         font-size: 3.5rem;
+      }
+    @include respond(tab-port-small) {
+        font-size: 2.1rem;
       }
 
     &__about {
