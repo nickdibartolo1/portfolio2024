@@ -3,12 +3,17 @@
     background-color: $color-primary;
     color: $color-white;
 
+
     //wrapper for all footer content
     &__row {
         display: flex;
         flex-direction: row;
         justify-content: center;
         padding: 1.5rem;
+
+        @include respond(phone) {
+            flex-direction: column;
+        }
     }
 
     //wrapper for just the links
@@ -19,7 +24,10 @@
         top: 2.3rem;
         margin-right: 7rem;
 
-        
+        @include respond(phone) {
+            justify-content: center;
+            margin-right: 0rem;
+        }
     }
 
     &__item {
@@ -56,11 +64,11 @@
 
 //wrapper for thanks content
 .thanks {
+    display: flex;
     margin-left: 7rem;
     padding: 2rem 4rem;
     width: 40%;
     text-align: center;
-    display: inline-block;
 
     @include respond(tab-port) {
         font-size: 1.5rem;
@@ -72,6 +80,13 @@
         margin-left: 2rem;
         padding: 1.5rem 3rem;
         width: 80%;
+    }
+
+    @include respond(phone) {
+        justify-content: center;
+        width: 100%;
+        margin-left: 0rem;
+        margin-top: 3rem;
     }
 
     &__text {}

@@ -20,6 +20,13 @@
     justify-content: center;
     padding: 4rem 0rem;
 
+    @include respond(bigger-phone) {
+        flex-direction: column;
+        align-items: center;
+        padding: 0rem;
+        gap: 1rem;
+    }
+
     &__container--1 {
         width: 25rem;
         height: 25rem;
@@ -44,6 +51,10 @@
         @include respond(tab-port-small) {
             width: 17rem;
             height: 17rem;
+        }
+
+        @include respond(bigger-phone) {
+            margin-right: 0%;
         }
 
         &:hover {
@@ -78,6 +89,10 @@
             height: 17rem;
         }
 
+        @include respond(bigger-phone) {
+            margin: 0%;
+        }
+
         &:hover {
             animation: bob 1s ease-in-out infinite;
         }
@@ -107,6 +122,10 @@
         @include respond(tab-port-small) {
             width: 17rem;
             height: 17rem;
+        }
+
+        @include respond(bigger-phone) {
+            margin-left: 0%;
         }
 
         &:hover {
