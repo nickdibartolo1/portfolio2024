@@ -30,6 +30,9 @@ body {
   @media only screen and (max-width: 59.375em) {
     .heading-primary {
       font-size: 4.7rem; } }
+  @media only screen and (max-width: 30em) {
+    .heading-primary {
+      font-size: 3.8rem; } }
 
 .heading-primary-white {
   text-transform: uppercase;
@@ -38,6 +41,15 @@ body {
   display: inline-block;
   font-size: 8rem;
   margin: 0; }
+  @media only screen and (max-width: 88.94rem) {
+    .heading-primary-white {
+      font-size: 6rem; } }
+  @media only screen and (max-width: 59.375em) {
+    .heading-primary-white {
+      font-size: 4.7rem; } }
+  @media only screen and (max-width: 30em) {
+    .heading-primary-white {
+      font-size: 3.8rem; } }
 
 .heading-secondary {
   text-transform: uppercase;
@@ -51,6 +63,9 @@ body {
   @media only screen and (max-width: 59.375em) {
     .heading-secondary {
       font-size: 2.1rem; } }
+  @media only screen and (max-width: 30em) {
+    .heading-secondary {
+      font-size: 1.7rem; } }
   .heading-secondary__about {
     padding: 1rem 0rem 2rem 0rem;
     display: inline-block;
@@ -59,6 +74,9 @@ body {
     @media only screen and (max-width: 88.94rem) {
       .heading-secondary__about {
         font-size: 1.7rem; } }
+    @media only screen and (max-width: 30em) {
+      .heading-secondary__about {
+        font-size: 1.5rem; } }
 
 .header {
   height: 97vh;
@@ -136,6 +154,10 @@ body {
       .about__paragraph {
         font-size: 1.5rem;
         padding: .6rem 0; } }
+    @media only screen and (max-width: 30em) {
+      .about__paragraph {
+        font-size: 1.3rem;
+        padding: .6rem 0; } }
 
 @keyframes flip {
   0% {
@@ -163,6 +185,9 @@ body {
     text-align: center; }
   .projects__description {
     color: #ffffff; }
+    @media only screen and (max-width: 42.375em) {
+      .projects__description {
+        font-size: 1.7rem; } }
   .projects__span {
     font-weight: bolder;
     text-decoration: underline; }
@@ -170,10 +195,29 @@ body {
 .mySwiper {
   max-width: 100rem;
   margin: 0 auto; }
+  @media only screen and (max-width: 73.69rem) {
+    .mySwiper {
+      max-width: 80rem; } }
+  @media only screen and (max-width: 54em) {
+    .mySwiper {
+      max-width: 60rem; } }
+  @media only screen and (max-width: 42.375em) {
+    .mySwiper {
+      max-width: 40rem; } }
 
-.swiper-button-prev, .swiper-button-next {
+.swiper-button-prev,
+.swiper-button-next {
   position: absolute !important;
   top: var(--swiper-navigation-top-offset, 40%) !important; }
+  @media only screen and (max-width: 54em) {
+    .swiper-button-prev,
+    .swiper-button-next {
+      top: var(--swiper-navigation-top-offset, 30%) !important; } }
+  @media only screen and (max-width: 42.375em) {
+    .swiper-button-prev,
+    .swiper-button-next {
+      top: var(--swiper-navigation-top-offset, 22%) !important;
+      transform: scale(0.7); } }
 
 .resume {
   background-color: #ffffff;
@@ -185,6 +229,9 @@ body {
     padding: 8rem 0rem 0rem 0rem; }
   .resume__btn-container {
     margin: 2rem 0rem 10rem 0rem; }
+    @media only screen and (max-width: 42.375em) {
+      .resume__btn-container {
+        margin: 2rem 0rem 6rem 0rem; } }
 
 .img-row {
   display: flex;

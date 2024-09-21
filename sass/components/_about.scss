@@ -84,6 +84,11 @@
             padding: .6rem 0;
         }
 
+        @include respond(phone-small) {
+            font-size: 1.3rem;
+            padding: .6rem 0;
+        }
+
     }
 
 }

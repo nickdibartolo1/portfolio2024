@@ -11,6 +11,10 @@
 
     &__btn-container {
         margin: 2rem 0rem 10rem 0rem;
+
+        @include respond(bigger-phone) {
+            margin: 2rem 0rem 6rem 0rem;
+        }
     }
 }
 
