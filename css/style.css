@@ -218,6 +218,11 @@ body {
     .swiper-button-next {
       top: var(--swiper-navigation-top-offset, 22%) !important;
       transform: scale(0.7); } }
+  @media only screen and (max-width: 26.56em) {
+    .swiper-button-prev,
+    .swiper-button-next {
+      top: var(--swiper-navigation-top-offset, 20%) !important;
+      transform: scale(0.5); } }
 
 .resume {
   background-color: #ffffff;
@@ -357,7 +362,10 @@ body {
   justify-content: right;
   flex-wrap: wrap;
   align-items: center;
-  padding: 0 5rem; }
+  padding: 0rem 5rem; }
+  @media only screen and (max-width: 39.25em) {
+    .navigation__nav {
+      justify-content: center; } }
 
 .navigation__list {
   display: flex;
@@ -366,6 +374,10 @@ body {
   gap: 4rem;
   padding: 4rem 4rem;
   text-transform: uppercase; }
+  @media only screen and (max-width: 39.25em) {
+    .navigation__list {
+      gap: 3.5rem;
+      padding: 2rem 2rem; } }
 
 .navigation__item {
   list-style-type: none; }
@@ -378,6 +390,9 @@ body {
   @media only screen and (max-width: 73.69rem) {
     .navigation__link:link, .navigation__link:visited {
       font-size: 1.6rem; } }
+  @media only screen and (max-width: 39.25em) {
+    .navigation__link:link, .navigation__link:visited {
+      font-size: 1.3rem; } }
 
 .navigation__link:hover {
   color: #306097; }

@@ -5,7 +5,11 @@
         justify-content: right;
         flex-wrap: wrap;
         align-items: center;
-        padding: 0 5rem;
+        padding: 0rem 5rem;
+
+        @include respond(phone) {
+            justify-content: center;
+        }
     }
 
     &__list {
@@ -16,9 +20,12 @@
         padding: 4rem 4rem;
         text-transform: uppercase;
 
-    }
+        @include respond(phone) {
+            gap: 3.5rem;
+            padding: 2rem 2rem;
+        }
 
-    // &__logo {}
+    }
 
     &__item {
         list-style-type: none;
@@ -35,6 +42,9 @@
 
             @include respond(tab-port) {
                 font-size: 1.6rem;
+            }
+            @include respond(phone) {
+                font-size: 1.3rem;
             }
 
         }

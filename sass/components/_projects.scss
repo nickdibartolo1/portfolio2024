@@ -71,4 +71,8 @@
         top: var(--swiper-navigation-top-offset, 22%) !important;
         transform: scale(0.7);
     }
+    @include respond(phone-xs) {
+        top: var(--swiper-navigation-top-offset, 20%) !important;
+        transform: scale(0.5);
+    }
 }
