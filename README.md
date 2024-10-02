@@ -15,7 +15,7 @@ An application displaying Nick's work as a Web Developer along with his resume.
   - Css/SCSS
   - JavaScript
 ## GithubPages link for deployment
-http://nickdibartolo1.github.io/portfolio2024
+https://nickdibartolo1.github.io/portfolio2024/
 
 ## Contributing
 Nick DiBartolo
